@@ -97,7 +97,8 @@ header {
 }
 .content-right ul li,.content-right p, .content-right ol {
 	margin-left: 50px;
-	line-height: 28px;
+	line-height: 16px;
+	margin-bottom: 10px;
 }
 .about-me {
 	background: url("images/icon.png") no-repeat;
