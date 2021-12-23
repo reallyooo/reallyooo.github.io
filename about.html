@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html lang="cn-zh">
+<head>
+	<meta charset="UTF-8">
+	<title>Resume</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="shadow">
+	<header>
+		<div class="header-bg"></div>
+		<div class="my-portrait">
+			<img src="images/my-portrait.png" alt="头像">
+		</div>
+	</header>
+	<div id="main">
+		<div class="content">
+			<div class="content-left about-me">
+				<h3>关于我</h3>
+				<p>About me</p>
+			</div>
+			<div class="node-line">
+				<div class="line">
+					<div class="node"></div>
+				</div>
+			</div>
+			<div class="content-right">
+				<ul>
+					<li class="about-me-list-odd">姓名：曾德威</li>
+					<li class="about-me-list-odd">学历：大专</li>
+					<li class="about-me-list-odd">专业：电子商务</li>
+					<li class="about-me-list-odd">地址：赣州·章贡区</li>
+				</ul>
+				<ul>
+					<li class="about-me-list-even">出生年月：1994-10</li>
+					<li class="about-me-list-even">求职意向：web前端开发</li>
+					<li class="about-me-list-even">期望薪资：8-10k</li>
+					<li class="about-me-list-even">手机号码：17062151806</li>
+				</ul>
+				<p>邮箱：yuannyaovo@gmail.com</p>
+			</div>
+		</div>
+		<div class="content">
+			<div class="content-left work">
+				<h3>工作经历</h3>
+				<p>Work exp</p>
+			</div>
+			<div class="node-line">
+				<div class="line">
+					<div class="node"></div>
+				</div>
+			</div>
+			<div class="content-right">
+				<h5>江西裕丰智能农业科技有限公司 | 2019.03 - 至今</h5><br>
+				<p>工作内容</p>
+				<ul>
+					<li>主要工作是果园项目相关的webPC端开发，独立完整开发的有果园大数据平台、果园大数据后台管理、设备平台、客户管理平台。</li>
+					<li>协助开发茶园项目，参与了茶园大数据平台、茶园后台管理、公司官网后台管理等项目。</li>
+					<li>学习和研究项目应用场景的解决方案或工具，例如：全景图片和视频、VR相关的场景使用krpano实现；图表相关使用Echarts、am4charts等工具实现；动画使用SVG实现等。</li>
+				</ul>
+				<h5>深圳市创方科技有限公司 | 2017.04 - 2019.02</h5><br>
+				<p>工作内容</p>
+				<ul>
+					<li>根据设计人员提供的网站页面设计稿应用div+css前端开发及后期维护。</li>
+					<li>负责公司内部管理工具的前后端开发。</li>
+					<li>负责公司网络及电脑的维护。</li>
+				</ul>
+
+			</div>
+		</div>
+		<div class="content">
+			<div class="content-left production">
+				<h3>项目</h3>
+				<p>Production</p>
+			</div>
+			<div class="node-line">
+				<div class="line">
+					<div class="node"></div>
+				</div>
+			</div>
+			<div class="content-right">
+				<div class="item">
+					<h5>果园大数据平台 | 2019.04 - 至今</h5><br>
+					<p>该平台功能，一是展示全国各地果园果树种植、采摘、施肥、植保、库存等信息；二是查看果园环境信息，如空气和土壤的温湿度、气压、光照、风速等；以及果园的实时视频监控、果园全景、航拍高清地图展示等。</p>
+					<p>使用Vue.js技术栈开发，使用了路由管理vue-route、状态管理vuex、连接后台服务axios和websocket（实现实时刷新）、版本控制Git、代码检查ESlint等技术或工具</p>
+					<p>项目有三大难点。因平台纯展示性质，会有大量的动画和复杂的UI，则实现UI设计是难点之一；要实现UI设计必要引入一些工具，再加上大量动画会让网站消耗大量内存而降低性能是难点之二；项目频繁改版迭代（平均一月一次大改），而且偶尔还有特定果园的定制演示版，那快速迭代和保持项目质量是难点之三。</p>
+					<p>为实现UI设计，使用了canvas绘制部分UI，图表使用了Echarts、am4charts工具，动画使用SVG绘制并引入TweenMax插件实现SVG动画，地图展示以google卫星地图+航拍高清地图为底图，用Leaflet开发。最终实现了96%以上的UI效果。</p>
+					<p>内存和性能问题，一方面从代码入手，减少new操作，合适的时机手动销毁对象，减少全局对象等，另一方面是借助浏览器的开发者工具测试网站性能，查找消耗大量性能的关键点并优化。</p>
+					<p>快速迭代并保持代码质量，其一，项目使用了ESlint代码检查工具，保证了代码的规范统一性；其二，项目目录结构清晰明了；其三，组件化开发，尽可能的复用代码，组件间解耦，增加代码灵活性；其四，对使用的框架和开发的项目有足够的理解。</p>
+				</div>
+				<div class="item">
+					<h5>其它管理平台 | 2019.06 - 至今</h5><br>
+					<p>果园大数据后台管理、设备平台、客户管理平台等项目都是果园项目的一些子项目管理平台，其功能也比较单一，管理某一环节的内容。这里同一介绍说明。</p>
+					<p>都使用Vue.js技术栈开发，UI使用的是Element UI，是比较常规的管理后台类网站项目。</p>
+				</div>
+				<div class="item">
+					<h5>仓库发货系统 | 2017.06 - 2017.07</h5><br>
+					<p>前端由vue-cli + vue-route + vue-resource构建，后端使用PHP + MySQL开发；</p>
+					<p>实现发货记录的增、删、查、改，发货模板的导入导出、保存为图片或表格，使用Echarts展示发货记录统计等功能。</p>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="content-left skills">
+				<h3>掌握技能</h3>
+				<p>Skills</p>
+			</div>
+			<div class="node-line">
+				<div class="line">
+					<div class="node"></div>
+				</div>
+			</div>
+			<div class="content-right">
+				<ul>
+					<li class="skills-list">
+						<h4>HTML/HTML5 (熟练)</h4>
+						<div class="exp-bg">
+							<div class="exp html"></div>
+						</div>
+						<div class="explain"></div>
+					</li>
+					<li class="skills-list">
+						<h4>CSS/CSS3 (熟练)</h4>
+						<div class="exp-bg">
+							<div class="exp css"></div>
+						</div>
+						<div class="explain"></div>
+					</li>
+					<li class="skills-list">
+						<h4>JavaScript (熟练)</h4>
+						<div class="exp-bg">
+							<div class="exp js"></div>
+						</div>
+						<div class="explain"></div>
+					</li>
+					<li class="skills-list">
+						<h4>Vue.js (熟练)</h4>
+						<div class="exp-bg">
+							<div class="exp js"></div>
+						</div>
+						<div class="explain"></div>
+					</li>
+				</ul>
+				<ul>
+					<li class="skills-list">
+						<h4>Photoshop (会简单设计)</h4>
+						<div class="exp-bg">
+							<div class="exp ps"></div>
+						</div>
+						<div class="explain"></div>
+					</li>
+					<li class="skills-list">
+						<h4>PHP (做过项目)</h4>
+						<div class="exp-bg">
+							<div class="exp ai"></div>
+						</div>
+						<div class="explain"></div>
+					</li>
+					<li class="skills-list">
+						<h4>MySQL (做过项目)</h4>
+						<div class="exp-bg">
+							<div class="exp git"></div>
+						</div>
+						<div class="explain"></div>
+					</li>
+					<li class="skills-list">
+						<h4>Python (做过项目)</h4>
+						<div class="exp-bg">
+							<div class="exp git"></div>
+						</div>
+						<div class="explain"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="content-left self-evaluation">
+				<h3>自我评价</h3>
+				<p>Self-evaluation</p>
+			</div>
+			<div class="node-line">
+				<div class="line">
+					<div class="node"></div>
+				</div>
+			</div>
+			<div class="content-right">
+				<p style="text-indent: 2em;"> 喜欢做有趣的事，执行力不错。学习能力尚可，
+					工作认真负责，有良好的团队合作精神。前后端技能都有，求联系求面试。<br>(・ω・)ノ
+				</p>
+			</div>
+		</div>
+		<!--
+		<div id="line">
+			<div class="node node-one"></div>
+			<div class="node node-two"></div>
+			<div class="node node-three"></div>
+			<div class="node node-four"></div>
+			<div class="node node-five"></div>
+		</div>
+	-->
+	</div>
+	<footer>
+		<div id="footer-border">
+			<h2>THANKS</h2>
+			<p>觉得我还可以？那就请联系我吧！</p>
+			<ul>
+				<li class="phone">：17062151806</li>
+				<li class="email">：yuannyaovo@gmail.com</li>
+			</ul>
+			<div id="download-pdf">
+				<a href="web前端开发-曾德威.pdf" target="_blank" title="下载简历">
+					Download PDF
+				</a>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
