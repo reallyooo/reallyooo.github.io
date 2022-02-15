@@ -224,15 +224,15 @@ S.UI = (function () {
   }
 
   function bindEvents() {
-    document.body.addEventListener('keydown', function (e) {
-      input.focus();
+    // document.body.addEventListener('keydown', function (e) {
+    //   input.focus();
 
-      if (e.keyCode === 13) {
-        firstAction = false;
-        reset();
-        performAction(input.value);
-      }
-    });
+    //   if (e.keyCode === 13) {
+    //     firstAction = false;
+    //     reset();
+    //     performAction(input.value);
+    //   }
+    // });
 
     // input.addEventListener('input', checkInputWidth);
     // input.addEventListener('change', checkInputWidth);
