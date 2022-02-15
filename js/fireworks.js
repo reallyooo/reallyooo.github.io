@@ -35,6 +35,7 @@ var Fireworks = (function() {
 
     // create a canvas for the fireworks
     mainCanvas = document.createElement('canvas');
+    mainCanvas.setAttribute('style', 'position: absolute; top: 0; left: 0;');
     mainContext = mainCanvas.getContext('2d');
 
     // and another one for, like, an off screen buffer
@@ -432,5 +433,6 @@ var FireworkExplosions = {
 
 // Go
 window.onload = function() {
+  console.log(123445)
   Fireworks.initialize();
 };
